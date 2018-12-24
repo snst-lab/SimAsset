@@ -57,7 +57,7 @@ Clone this repo using `https://github.com/snst-lab/SimAsset` or download files s
  |
  |_ simasset.js             //Javascript SDK of this Library
  |
- |_ web3.js                 //Ethereum Javascript API
+ |_ web3.min.js                 //Ethereum Javascript API
  |
  |_ ethereumjs.js           //Ethereum Javascript API Extentions
 ```
@@ -66,7 +66,7 @@ Clone this repo using `https://github.com/snst-lab/SimAsset` or download files s
  Load the library with script tag.
 
 ```html
- <script type="text/javascript" src="web3.js"></script>
+ <script type="text/javascript" src="web3.min.js"></script>
  <script type="text/javascript" src="ethereumjs.js"></script>
  <script type="text/javascript" src="simasset.js"></script>
 ```
