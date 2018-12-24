@@ -1,3 +1,13 @@
+/*!
+ * SimAsset.sol
+ * This is an Dapp which can create arbitrary asset classes on Ethereum network.
+ * This supports you to develop various Dapps.
+ *
+ * Copyright (c) 2018 TANUSUKE
+ * Released under the LGPL license.
+ * see https://www.gnu.org/licenses/lgpl-3.0.html 
+ *
+ */
 pragma solidity ^0.4.4;
 
 contract SimAsset{

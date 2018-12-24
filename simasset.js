@@ -1,7 +1,7 @@
 /*!
  * SimAsset.js
  * This is an interface for accessing SimAsset.sol.
- * This supports many developers to develop various Dapps.
+ * This supports you to develop various Dapps.
  *
  * Copyright (c) 2018 TANUSUKE
  * Released under the LGPL license.
