@@ -608,7 +608,9 @@ const expire = app.getExpireByAssetId(1);
 
 #### example
 ```javascript
-const expire = app.getMetaDefinitionPrivate(1,'BTC_ADDRESS');
+if(app.getMetaDefinitionPrivate(1,'BTC_ADDRESS')){
+    ...
+}
 ```
 <br>
 
@@ -619,7 +621,9 @@ const expire = app.getMetaDefinitionPrivate(1,'BTC_ADDRESS');
 
 #### example
 ```javascript
-const expire = app.getMetaDefinitionKeep(1,'BTC_ADDRESS');
+if(app.getMetaDefinitionKeep(1,'BTC_ADDRESS')){
+    ...
+}
 ```
 <br>
 
@@ -637,7 +641,7 @@ const expire = app.getMetaDefinitionKeep(1,'BTC_ADDRESS');
 
 #### example
 ```javascript
-const expire = app.getMetaValue(1,'BTC_ADDRESS',0);
+const btcAddress = app.getMetaValue(1,'BTC_ADDRESS',0);
 ```
 
 <br>
