@@ -24,18 +24,21 @@
 >- [Obtaining attributes of meta definitions](#Obtaining_attributes_of_meta_definitions)
 >- [Obtaining meta informations](#Obtaining_meta_informations)
 >
+> [Contributing](#contributing)  
+>
 > [License](#license)
-
-
+>
+> [Developer](#developer)  
 
 <br>
+---
 <br>
 
 >## Installation
 
 ### 1. Clone or Download
 
-Clone this repo using `https://github.com/fvcproductions/SOMEREPO` or download files separately to your local machine 
+Clone this repo using `https://github.com/snst-lab/SimAsset` or download files separately to your local machine 
 
 
 ### 2. Place
@@ -151,7 +154,6 @@ app.watchBid().then((data)=>{
 });
 ```
 <br>
-
 ---
 <br>
 
@@ -288,7 +290,6 @@ app.acceptToChangeAdmin('0xasdf...', 1, '0xqwer...');
 app.acceptToChangeAdmin('0xasdf...', 1);
 ```
 <br>
-
 ---
 <br>
 
@@ -375,7 +376,6 @@ app.accept('0xasdf...', 1, 1, 10e+17, '0xqwer...', 4096);
 app.buyAfterAccept('0xasdf...', 1, 1, 10e+18,);
 ```
 <br>
-
 ---
 <br>
 
@@ -479,7 +479,6 @@ const minExpire = app.getMinExpireByClassId(classId);
 const total = app.getAssetTotalByClassId(classId);
 ```
 <br>
-
 ---
 <br>
 
@@ -579,7 +578,6 @@ if(!app.getAcceptedByAssetId(1)){
 const expire = app.getExpireByAssetId(1);
 ```
 <br>
-
 ---
 <br>
 
@@ -607,7 +605,6 @@ const expire = app.getMetaDefinitionPrivate(1,'BTC_ADDRESS');
 const expire = app.getMetaDefinitionKeep(1,'BTC_ADDRESS');
 ```
 <br>
-
 ---
 <br>
 
@@ -623,16 +620,13 @@ const expire = app.getMetaDefinitionKeep(1,'BTC_ADDRESS');
 ```javascript
 const expire = app.getMetaValue(1,'BTC_ADDRESS',0);
 ```
+
 <br>
-
-
 ---
-
-
+<br>
 
 ## Contributing
 
-> To get started...
 
 ### Step 1
 
@@ -640,7 +634,7 @@ const expire = app.getMetaValue(1,'BTC_ADDRESS',0);
     - 🍴 Fork this repo!
 
 - **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/joanaz/HireDot2.git`
+    - 👯 Clone this repo to your local machine using `https://github.com/snst-lab/SimAsset.git`
 
 ### Step 2
 
@@ -648,9 +642,11 @@ const expire = app.getMetaValue(1,'BTC_ADDRESS',0);
 
 ### Step 3
 
-- 🔃 Create a new pull request using <a href="https://github.com/joanaz/HireDot2/compare/" target="_blank">`https://github.com/joanaz/HireDot2/compare/`</a>.
+- 🔃 Create a new pull request using <a href="https://github.com/snst-lab/SimAsset/compare/" target="_blank">`https://github.com/snst-lab/SimAsset/compare/`</a>
 
+<br>
 ---
+<br>
 
 
 ## Licence
