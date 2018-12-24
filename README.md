@@ -45,7 +45,7 @@ Clone this repo using `https://github.com/snst-lab/SimAsset` or download files s
 
 ### 2. Place
 
- Place the files as follow.
+ Place files in your working directory.  Below is an example.
 
 ```console
 [Working Directory]
@@ -54,20 +54,22 @@ Clone this repo using `https://github.com/snst-lab/SimAsset` or download files s
  |     |_ contract.address  //Contract address of SimAsset.sol
  |     |
  |     |_ abi.json          //ABI of SimAsset.sol
- |
+ |     
+ |_ lib
+ |     |_ web3.min.js       //Ethereum Javascript API
+ |     |
+ |     |_ ethereumjs.js     //Ethereum Javascript API Extentions
+ |     
+ |     
  |_ simasset.js             //Javascript SDK of this Library
- |
- |_ web3.min.js                 //Ethereum Javascript API
- |
- |_ ethereumjs.js           //Ethereum Javascript API Extentions
 ```
 
 ### 3. Load
  Load the library with script tag.
 
 ```html
- <script type="text/javascript" src="web3.min.js"></script>
- <script type="text/javascript" src="ethereumjs.js"></script>
+ <script type="text/javascript" src="lib/web3.min.js"></script>
+ <script type="text/javascript" src="lib/ethereumjs.js"></script>
  <script type="text/javascript" src="simasset.js"></script>
 ```
 <br>
