@@ -650,8 +650,7 @@ const btcAddress = app.getMetaValue(1,'BTC_ADDRESS',0);
 
 <br>
 
-## Contributing
-
+> ## Contributing
 
 ### Step 1
 
@@ -676,9 +675,9 @@ const btcAddress = app.getMetaValue(1,'BTC_ADDRESS',0);
 <br>
 
 
-## Licence
+> ## Licence
 [LGPL](https://www.gnu.org/licenses/lgpl-3.0.html) 
 
 
-## Developer
+> ## Developer
 [TANUSUKE](https://github.com/snst-lab)  
