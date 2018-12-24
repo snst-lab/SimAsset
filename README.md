@@ -191,7 +191,7 @@ app.createAssetClass('0xasdf...','MyAssetClass', 10e+16, 10e+10, 10e+35, 5.00, 4
 
 #### example
 ```javascript
-app.setNameOfAssetClass ('0xasdf...', 1, 'NewAssetClass');
+app.setNameOfAssetClass('0xasdf...', 1, 'NewAssetClass');
 ```
 <br>
 
@@ -203,7 +203,7 @@ app.setNameOfAssetClass ('0xasdf...', 1, 'NewAssetClass');
 
 #### example
 ```javascript
-app.setDefaultPrice ('0xasdf...', 1, 10e+17);
+app.setDefaultPrice('0xasdf...', 1, 10e+17);
 ```
 <br>
 
