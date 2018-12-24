@@ -31,7 +31,9 @@
 > [Developer](#developer)  
 
 <br>
+
 ---
+
 <br>
 
 >## Installation
@@ -99,6 +101,7 @@ app.setProvider('localhost:8545','mainnet');
 <br>
 
 ---
+
 <br>
 
 ## Event_Monitor
@@ -154,7 +157,9 @@ app.watchBid().then((data)=>{
 });
 ```
 <br>
+
 ---
+
 <br>
 
 ## Managing_asset_classes
@@ -289,8 +294,11 @@ app.acceptToChangeAdmin('0xasdf...', 1, '0xqwer...');
 ```javascript
 app.acceptToChangeAdmin('0xasdf...', 1);
 ```
+
 <br>
+
 ---
+
 <br>
 
 ## Managing_assets
@@ -376,7 +384,9 @@ app.accept('0xasdf...', 1, 1, 10e+17, '0xqwer...', 4096);
 app.buyAfterAccept('0xasdf...', 1, 1, 10e+18,);
 ```
 <br>
+
 ---
+
 <br>
 
 ## Obtaining_class_informations
@@ -479,7 +489,9 @@ const minExpire = app.getMinExpireByClassId(classId);
 const total = app.getAssetTotalByClassId(classId);
 ```
 <br>
+
 ---
+
 <br>
 
 ## Obtaining_asset_informations
@@ -577,8 +589,11 @@ if(!app.getAcceptedByAssetId(1)){
 ```javascript
 const expire = app.getExpireByAssetId(1);
 ```
+
 <br>
+
 ---
+
 <br>
 
 ## Obtaining_attributes_of_meta_definitions
@@ -605,7 +620,9 @@ const expire = app.getMetaDefinitionPrivate(1,'BTC_ADDRESS');
 const expire = app.getMetaDefinitionKeep(1,'BTC_ADDRESS');
 ```
 <br>
+
 ---
+
 <br>
 
 ## Obtaining_meta_informations
@@ -622,7 +639,9 @@ const expire = app.getMetaValue(1,'BTC_ADDRESS',0);
 ```
 
 <br>
+
 ---
+
 <br>
 
 ## Contributing
@@ -645,7 +664,9 @@ const expire = app.getMetaValue(1,'BTC_ADDRESS',0);
 - 🔃 Create a new pull request using <a href="https://github.com/snst-lab/SimAsset/compare/" target="_blank">`https://github.com/snst-lab/SimAsset/compare/`</a>
 
 <br>
+
 ---
+
 <br>
 
 
