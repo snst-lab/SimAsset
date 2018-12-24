@@ -681,4 +681,4 @@ const btcAddress = app.getMetaValue(1,'BTC_ADDRESS',0);
 <br>
 
 > ## Developer
-[TANUSUKE](https://github.com/snst-lab)  
+[TANUSUKE](https://pragma-curry.com/)  
