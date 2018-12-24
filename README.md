@@ -1,6 +1,6 @@
 # SimAsset
 
-> These are a Dapp and Javascript SDK which can create arbitrary asset classes on ethereum.
+> These are a Dapp and Javascript SDK which can create arbitrary asset classes on Ethereum.
 > These support you to develop various Dapps. 
 
 *This library is in trial operation on the Ropsten network.  
@@ -678,6 +678,7 @@ const btcAddress = app.getMetaValue(1,'BTC_ADDRESS',0);
 > ## Licence
 [LGPL](https://www.gnu.org/licenses/lgpl-3.0.html) 
 
+<br>
 
 > ## Developer
 [TANUSUKE](https://github.com/snst-lab)  
