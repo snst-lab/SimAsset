@@ -1,0 +1,1020 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_serial",
+				"type": "uint256"
+			},
+			{
+				"name": "_bid",
+				"type": "uint256"
+			},
+			{
+				"name": "_bidder",
+				"type": "string"
+			},
+			{
+				"name": "_expire",
+				"type": "uint256"
+			}
+		],
+		"name": "accept",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_newAdmin",
+				"type": "string"
+			}
+		],
+		"name": "acceptToChangeAdmin",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_serial",
+				"type": "uint256"
+			},
+			{
+				"name": "_key",
+				"type": "string"
+			},
+			{
+				"name": "_fragment",
+				"type": "uint256"
+			},
+			{
+				"name": "_value",
+				"type": "string"
+			}
+		],
+		"name": "assignMeta",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_serial",
+				"type": "uint256"
+			},
+			{
+				"name": "_bid",
+				"type": "uint256"
+			}
+		],
+		"name": "bid",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_serial",
+				"type": "uint256"
+			},
+			{
+				"name": "_newAsk",
+				"type": "uint256"
+			}
+		],
+		"name": "buyAfterAccept",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_serial",
+				"type": "uint256"
+			},
+			{
+				"name": "_newAsk",
+				"type": "uint256"
+			}
+		],
+		"name": "buyAtAsk",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": true,
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			}
+		],
+		"name": "chageAdmin",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_newContributionRate",
+				"type": "uint256"
+			}
+		],
+		"name": "changeContributionRate",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_newROOT_ADMIN",
+				"type": "string"
+			}
+		],
+		"name": "changeROOT_ADMIN",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"name": "_defaultPrice",
+				"type": "uint256"
+			},
+			{
+				"name": "_minTransfer",
+				"type": "uint256"
+			},
+			{
+				"name": "_maxTransfer",
+				"type": "uint256"
+			},
+			{
+				"name": "_feeRate",
+				"type": "uint256"
+			},
+			{
+				"name": "_minExpire",
+				"type": "uint256"
+			},
+			{
+				"name": "_exchangable",
+				"type": "bool"
+			}
+		],
+		"name": "createAssetClass",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_key",
+				"type": "string"
+			},
+			{
+				"name": "_secret",
+				"type": "bool"
+			},
+			{
+				"name": "_keep",
+				"type": "bool"
+			}
+		],
+		"name": "defineMeta",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_serial",
+				"type": "uint256"
+			},
+			{
+				"name": "_newAsk",
+				"type": "uint256"
+			}
+		],
+		"name": "setAsk",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_defaultPrice",
+				"type": "uint256"
+			}
+		],
+		"name": "setDefaultPrice",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_feeRate",
+				"type": "uint256"
+			}
+		],
+		"name": "setFeeRate",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_maxTransfer",
+				"type": "uint256"
+			}
+		],
+		"name": "setMaxTransfer",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_minExpire",
+				"type": "uint256"
+			}
+		],
+		"name": "setMinExpire",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_minTransfer",
+				"type": "uint256"
+			}
+		],
+		"name": "setMinTransfer",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_name",
+				"type": "string"
+			}
+		],
+		"name": "setNameOfAssetClass",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"name": "_ROOT_ADMIN",
+				"type": "string"
+			},
+			{
+				"name": "_newContributionRate",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"name": "classId",
+				"type": "uint256"
+			},
+			{
+				"indexed": true,
+				"name": "serial",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "oldOwner",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "AssetSold",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"name": "classId",
+				"type": "uint256"
+			},
+			{
+				"indexed": true,
+				"name": "serial",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "owner",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "bidder",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "bidPrice",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "expire",
+				"type": "uint256"
+			}
+		],
+		"name": "Accepted",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"name": "classId",
+				"type": "uint256"
+			},
+			{
+				"indexed": true,
+				"name": "serial",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"name": "owner",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "bidder",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"name": "bidPrice",
+				"type": "uint256"
+			}
+		],
+		"name": "Bid",
+		"type": "event"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_assetId",
+				"type": "uint256"
+			}
+		],
+		"name": "getAcceptedByAssetId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			}
+		],
+		"name": "getAdminByClassId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_assetId",
+				"type": "uint256"
+			}
+		],
+		"name": "getAskByAssetId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_serial",
+				"type": "uint256"
+			}
+		],
+		"name": "getAssetId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			}
+		],
+		"name": "getAssetTotalByClassId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_assetId",
+				"type": "uint256"
+			}
+		],
+		"name": "getBidByAssetId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_assetId",
+				"type": "uint256"
+			}
+		],
+		"name": "getBidderByAssetId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_name",
+				"type": "string"
+			}
+		],
+		"name": "getClassId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getContractBalance",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			}
+		],
+		"name": "getDefaultPriceByClassId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_assetId",
+				"type": "uint256"
+			}
+		],
+		"name": "getExpireByAssetId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			}
+		],
+		"name": "getFeeRateByClassId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_assetId",
+				"type": "uint256"
+			}
+		],
+		"name": "getLastByAssetId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			}
+		],
+		"name": "getMaxTransferByClassId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_key",
+				"type": "string"
+			}
+		],
+		"name": "getMetaDefinitionKeep",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			},
+			{
+				"name": "_key",
+				"type": "string"
+			}
+		],
+		"name": "getMetaDefinitionSecret",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_assetId",
+				"type": "uint256"
+			},
+			{
+				"name": "_key",
+				"type": "string"
+			},
+			{
+				"name": "_fragment",
+				"type": "uint256"
+			}
+		],
+		"name": "getMetaValue",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			}
+		],
+		"name": "getMinExpireByClassId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			}
+		],
+		"name": "getMinTransferByClassId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			}
+		],
+		"name": "getNameByClassId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_assetId",
+				"type": "uint256"
+			}
+		],
+		"name": "getOwnerByAssetId",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_classId",
+				"type": "uint256"
+			}
+		],
+		"name": "getWholeAssetIds",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256[]"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getWholeClassIds",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256[]"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
