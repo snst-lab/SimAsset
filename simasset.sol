@@ -91,10 +91,10 @@ contract SimAsset{
     event Accepted(uint256 indexed classId, uint256 indexed serial, address owner, address bidder, uint256 bidPrice, uint256 expire);
     event Bid(uint256 indexed classId, uint256 indexed serial, address owner, address bidder, uint256 bidPrice);
         
-    constructor(string _ROOT_ADMIN, uint256 _newContributionRate) public{
+    constructor(string _ROOT_ADMIN, uint256 _newContributionRate) public {
         require(_newContributionRate <= 3000, 'The contribution rate is not a valid range.');
         ROOT_ADMIN = util.stringToAddress(_ROOT_ADMIN);
-        SimAsset.initStructs();
+        initStructs();
     }
 
     /**
@@ -614,7 +614,10 @@ contract SimAsset{
     */
     function stringToAddress(string memory source) internal pure returns (address result) {
         bytes memory temp = bytes(source);
-        if (temp.length != 20) {
+        if (temp.length == 0) {
+            return 0x0;
+        }
+        else if(temp.length>42){
             revert();
         }
         assembly {
