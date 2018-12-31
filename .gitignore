@@ -2,15 +2,14 @@
 /node_modules/*
 package-lock.json
 
-#Ignore archive directory
-/archive/*
 
-#Ignore working directory other than coding
-/resource/*
-
-#Ignore Test Settings
+#Ignore test settings
 .travis.yml
 .eslintrc.json
+
+#Ignore the archive directory and the working directory other than coding
+/archive/*
+/resource/*
 
 #Ignore shell scripts to deploy repository
 gitpush.bat
