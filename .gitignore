@@ -2,11 +2,6 @@
 /node_modules/*
 package-lock.json
 
-
-#Ignore test settings
-.travis.yml
-.eslintrc.json
-
 #Ignore the archive directory and the working directory other than coding
 /archive/*
 /resource/*
