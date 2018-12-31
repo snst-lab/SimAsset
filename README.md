@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/snst-lab/SimAsset.svg?branch=master)](https://travis-ci.org/snst-lab/SimAsset) 
+
 # SimAsset
 
 > These are a Dapp and Javascript SDK which can create arbitrary asset classes on Ethereum.
