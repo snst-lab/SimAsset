@@ -1,0 +1,22 @@
+{
+  "name": "simasset",
+  "version": "1.0.0",
+  "description": "> These are a Dapp and Javascript SDK which can create arbitrary asset classes on Ethereum.\r > These support you to develop various Dapps.",
+  "main": "simasset.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snst-lab/SimAsset.git"
+  },
+  "author": "",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/snst-lab/SimAsset/issues"
+  },
+  "homepage": "https://github.com/snst-lab/SimAsset#readme"
+}
